@@ -1,0 +1,105 @@
+.back{
+    background-image: url("./IMG/fondo.jpg");
+    width: 920px;
+    height: 1200px;
+    background-size: cover;
+
+}
+
+.menu{
+    background-image: url("./IMG/fondo.jpg");
+    width: 920px;
+    height: max-content;
+    background-size: cover;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:start;
+    word-spacing: 55px;
+    color:rgb(209, 40, 40);
+    text-shadow: 1px 1px #fff;
+
+}
+
+.titulo{
+    background-image: url("./IMG/fondo.jpg");
+    width:920px;
+    height: max-content;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:rgb(209, 40, 40);
+    text-shadow: 1px 1px #fff;
+}
+
+.formularios{
+    background-image: url("./IMG/fondo.jpg");
+    width: 920px;
+    height: max-content;
+    background-size: cover;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:start;
+    word-spacing: 5px;
+    color:rgb(209, 40, 40);
+    text-shadow: 1px 1px #fff;
+
+}
+
+.footer{
+    background-image: url("./IMG/fondo.jpg");
+    width: 920px;
+    height: max-content;
+    background-size: cover;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:start;
+    word-spacing: 5px;
+    color:rgb(209, 40, 40);
+    text-shadow: 1px 1px #fff;
+
+}
+
+h2{
+    text-align: center;
+    color:rgb(209, 40, 40);
+    text-shadow: 1px 1px #fff;
+}
+
+
+a{
+    font-size: 20px;
+    color:rgb(209, 40, 40);
+    text-shadow: 1px 1px #fff;
+}
+
+label{
+    font-size: 15px;
+    text-align: center;
+    color:rgb(209, 40, 40);
+    text-shadow: 1px 1px #fff;
+}
+
+#post1{
+    text-align: center;
+    color:rgb(209, 40, 40);
+    text-shadow: 1px 1px #fff;
+}
+
+#post2{
+    text-align: center;
+    color:white;
+    text-shadow: 1px 1px #fff;
+}
+
+.becas{
+    background-image: url("./IMG/fondo.jpg");
+    width: 920px;
+    height: max-content;
+    background-size: cover;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    word-spacing: 5px;
+    color:rgb(209, 40, 40);
+    text-shadow: 1px 1px #fff;
+}

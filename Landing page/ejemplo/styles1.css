@@ -1,0 +1,78 @@
+/* selecciona todos los elementos */
+* {
+    font-weight: bold;
+}
+
+
+nav {
+    background-color: aquamarine;
+   
+}
+
+section {
+    background-color: blueviolet;
+}
+
+#post1 {
+    background-color: brown;
+}
+
+
+.articles {
+    border: 1px solid black;
+}
+
+/*
+Cuando algun elemento tenga un type que acabe en "er"
+El hover es el estado del elemento cuando se pasa el ratón por encima
+*/
+[type$='er']:hover {
+    background-color: crimson;
+}
+
+/* El estado del elemento cuando el enlace ha sido visitado*/
+a:visited {
+    color: violet;
+}
+
+/* El estado cuando el checkbox esta marcado*/
+#checkbox:checked {
+    background-color: blue;
+}
+
+/* Coge el segundo hijo del elemento articles */
+.articles:nth-child(2) {
+    background-color: aqua;
+}
+
+/* before nos permite crear contenido "antes" del elemento  */
+#ejBefore::before {
+    content:"♥";
+}
+
+/* con placeholder podemos cambiar los estilos del placeholder de los elementos de formulario */
+input[type="text"]::placeholder {
+    color: blue;
+}
+
+/* Todos los elementos article dentro de posts */
+#articles article{
+    
+}
+
+/* cogemos post1 y post2 */
+#post1, #post2 {
+   
+    width: 20%;
+    height: 20vh;
+}
+
+/* cogemos el div que haya dentro de posts */
+#posts > div {
+    
+}
+
+/* coge un section dentro de un article */
+article.section {
+    
+}
